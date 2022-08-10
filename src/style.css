@@ -190,5 +190,8 @@ footer .social-links a:hover {
   .logo {
     max-height: 40px;
   }
+  .hide-in {
+    display: block;
+  }
 }
 /* background-image: linear-gradient(#ebcbbc, #ffefe7, #ecccbd); */
