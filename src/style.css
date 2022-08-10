@@ -40,7 +40,7 @@ body {
     rgb(194, 157, 231) 90%
   );
   text-align: center;
-  padding: 80px 20px;
+  padding: 140px 20px;
 }
 .hero p {
   font-size: 36px;
@@ -160,9 +160,12 @@ footer .social-links a:hover {
   color: white;
   background-color: var(--branding-color);
 }
+.vitaju {
+  color: var(--branding-color) !important;
+}
 @media (max-width: 900px) {
   h1 {
-    font-size: 56px;
+    font-size: 45px !important;
   }
   h2 {
     font-size: 35px;
@@ -178,7 +181,7 @@ footer .social-links a:hover {
     text-align: center;
   }
   .hero {
-    padding: 50px 20px;
+    padding: 140px 20px 45px 20px;
   }
   .content {
     text-align: center;
