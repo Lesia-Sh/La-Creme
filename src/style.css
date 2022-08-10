@@ -1,5 +1,5 @@
 :root {
-  --branding-color: #6c63ff;
+  --branding-color: #df4843;
   --heading-font-family: "Playfair Display", serif;
   --default-font-family: "Poppins", sans-serif;
   --background-colour: #f9f7fe;
@@ -30,7 +30,7 @@ body {
   background-image: linear-gradient(coral, rgb(250, 174, 174), darksalmon);
 }
 .hero {
-  background-color: var(--background-colour);
+  background-image: linear-gradient(coral, rgb(250, 174, 174), darksalmon);
   text-align: center;
   padding: 80px 20px;
 }
@@ -98,6 +98,7 @@ body {
 }
 nav {
   padding: 20px 0;
+  margin: 30px;
 }
 nav ul {
   padding: 0;
