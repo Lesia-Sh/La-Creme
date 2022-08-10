@@ -26,6 +26,9 @@ p {
   font-size: 16px;
   line-height: 30px;
 }
+body {
+  background-image: linear-gradient(coral, rgb(250, 174, 174), darksalmon);
+}
 .hero {
   background-color: var(--background-colour);
   text-align: center;
@@ -176,3 +179,4 @@ footer .social-links a:hover {
     max-height: 40px;
   }
 }
+/* background-image: linear-gradient(#ebcbbc, #ffefe7, #ecccbd); */
