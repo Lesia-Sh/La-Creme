@@ -27,10 +27,18 @@ p {
   line-height: 30px;
 }
 body {
-  background-image: linear-gradient(coral, rgb(250, 174, 174), darksalmon);
+  background: radial-gradient(
+    circle at 10% 20%,
+    rgb(244, 186, 186) 0%,
+    rgb(194, 157, 231) 90%
+  );
 }
 .hero {
-  background-image: linear-gradient(coral, rgb(250, 174, 174), darksalmon);
+  background: radial-gradient(
+    circle at 10% 20%,
+    rgb(244, 186, 186) 0%,
+    rgb(194, 157, 231) 90%
+  );
   text-align: center;
   padding: 80px 20px;
 }
